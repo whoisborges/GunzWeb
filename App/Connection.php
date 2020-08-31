@@ -7,7 +7,7 @@ class Connection {
 	public static function getDb() {
 		try {
 
-		    $conn = new \PDO("sqlsrv:Server=DESKTOP-63HLFIA\SQLEXPRESS;Database=TestDB","sa","a9263@");
+		    $conn = new \PDO("sqlsrv:Server=YOUR-SQL\SQLEXPRESS;Database=GunzDB","sa","yourpass");
 
 		    $conn->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);  
 
